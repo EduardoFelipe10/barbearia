@@ -1,0 +1,43 @@
+.inicioServiços{
+  
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(21, 109, 185);
+
+}
+
+.service{
+    color: rgb(141, 5, 23);
+    font-family: fantasy;
+}
+
+.data{
+    color: rgb(141, 5, 23);
+    font-family: fantasy;
+}
+
+.hora{
+    color: rgb(141, 5, 23);
+    font-family: fantasy;
+}
+
+.nome{
+    color: rgb(141, 5, 23);
+    font-family: fantasy;
+}
+
+
+.telefone{
+    color: rgb(141, 5, 23);
+    font-family: fantasy;
+}
+
+
+
+

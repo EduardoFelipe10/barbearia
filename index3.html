@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Serviços</title>
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body style="background-image: url('css/img/cadeiras-vintage-na-barbearia_155003-10150.avif'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+    <header>
+        <h1 class="Agendamento">Agendamento de Serviços</h1>
+    </header>
+
+    <section class="container">
+        <h2 class="inicioServiços">Selecione um Serviço</h2>
+        <form class="schedule-form">
+            <label for="service">Serviço:</label>
+            <select class="service" id="service" name="service">
+                <option value="corte-cabelo">Corte de Cabelo</option>
+                <option value="manicure">Manicure</option>
+                <option value="massagem">Massagem</option>
+                <option value="depilacao">Depilação</option>
+            </select>
+
+            <label for="date">Data:</label>
+            <input class="data" type="date" id="date" name="date">
+
+            <label for="time">Hora:</label>
+            <input class="hora" type="time" id="time" name="time">
+
+            <label for="name">Nome:</label>
+            <input class="nome" type="text" id="name" name="name" placeholder="Seu nome">
+
+            <label for="phone">Telefone:</label>
+            <input class="telefone" type="tel" id="phone" name="phone" placeholder="Seu telefone">
+
+            <button class="botão" type="submit">Agendar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Agendamento de Serviços</p>
+    </footer>
+</body>
+</html>
+
+<style>
+    /* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #01080f;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.schedule-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.schedule-form input,
+.schedule-form select,
+.schedule-form button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.schedule-form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.schedule-form button:hover {
+    background-color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #000000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.botão{
+    background-color: #01080f;
+
+}
+
+body{
+    background-color: #000000;
+}
+
+</style>

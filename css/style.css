@@ -1,0 +1,79 @@
+body {
+    background-color: aliceblue;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.h1 {
+    font-size: 2em;
+    color: chartreuse;
+    text-align: center;
+}
+.input-box {
+    display: flex; flex-direction: column;
+}
+.btn {
+    background: aqua;
+    transition-duration: 0.4s;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px #03e9f4;
+    -webkit-box-reflect: below 1px linear-gradient(trasparent, #0005);
+}
+
+body {
+    
+   background-color: #FFFFFF;
+    
+}
+
+body, html {
+height: 100%;
+margin: 0%;
+}
+
+.Click {
+color: rgb(23, 66, 206);
+}
+
+.inicio{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+img{
+    margin: 20px;
+}
+
+.input-bordas{
+    border-radius: 5px;
+}
+
+.btnEntrar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;    
+}
+
+.link-tex{
+    font-family: fantasy;
+}
+
+.link-text{
+    font-family: fantasy;
+}
+
+
+

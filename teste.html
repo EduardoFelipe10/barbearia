@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação de H1</title>
+    <style>
+        h1 {
+            font-size: 30px;
+            color: #333;
+            text-align: center;
+            margin-top: 50px;
+            /* Aplica a animação */
+            animation: animacaoTexto 3s infinite;
+        }
+
+        /* Definindo a animação */
+        @keyframes animacaoTexto {
+            0% {
+                color: #ffffff;
+                transform: scale(1);
+            }
+            50% {
+                color: #f00202;
+                transform: scale(1.5);
+            }
+            100% {
+                color: #f7f7f7;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Animação de Texto</h1>
+</body>
+</html>
